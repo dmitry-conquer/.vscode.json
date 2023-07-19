@@ -1,0 +1,142 @@
+{
+   "workbench.tree.indent": 25,
+   "editor.cursorBlinking": "phase",
+   "editor.occurrencesHighlight": false,
+   "editor.matchBrackets": "always",
+   "workbench.colorCustomizations": {
+      "editor.background": "#23272e",
+      "gitDecoration.addedResourceForeground": "#B392F0",
+      "gitDecoration.modifiedResourceForeground": "#648ab6",
+      "gitDecoration.deletedResourceForeground": "#C36D75",
+      "activityBar.background": "#23272e",
+      "sideBar.background": "#23272e",
+      "editorBracketMatch.background": "#00000000",
+      "editorBracketMatch.border": "#ffffff46",
+      "editor.selectionBackground": "#ffffff1f",
+      "editor.selectionHighlightBackground": "#00000000",
+      "editor.selectionHighlightBorder": "#ffffff46"
+   },
+   "editor.tokenColorCustomizations": {
+      "[Atom One Dark]": {
+         "textMateRules": [
+            {
+               "scope": "keyword.operator.expression.typeof.js, support.variable.property.ts, variable.language.this.js, entity.other.attribute-name.attribute.scss, meta.attribute-selector.scss, entity.other.attribute-name.class.css, punctuation.definition.entity.css, punctuation.separator.key-value.html, support.variable.property.js, entity.other.attribute-name.html, entity.other.attribute-name.class.css, punctuation.definition.entity.css",
+               "settings": {
+                  "foreground": "#D19A66"
+               }
+            },
+            {
+               "scope": "storage.type.function.ts, keyword.control.export.ts, keyword.control.flow.ts, keyword.control.trycatch.js, entity.name.function.scss, keyword.operator.expression.in.ts ,entity.other.attribute-name.html.vue, punctuation.attribute-shorthand.event.html.vue, punctuation.attribute-shorthand.bind.html.vue, keyword.control.loop.vue, keyword.control.conditional.vue, punctuation.definition.interpolation.begin.html.vue, punctuation.definition.interpolation.end.html.vue, keyword.operator.new.ts, keyword.control.at-rule.layer.tailwind, keyword.control.at-rule.apply.tailwind, keyword.control.at-rule.tailwind.tailwind, keyword.control.at-rule.import.css, keyword.control.at-rule.responsive.tailwind, keyword.control.loop.js, punctuation.definition.template-expression.begin.ts, punctuation.definition.template-expression.end.ts, keyword.control.conditional.js, keyword.control.flow.js, storage.modifier.async.js, keyword.operator.new.js, keyword.operator.expression.in.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, keyword.control.import.js, keyword.control.from.js, keyword.control.at-rule.import.scss, storage.type.function.arrow.js, keyword.control.export.js, keyword.control.at-rule.supports.scss, keyword.operator.logical.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.scss",
+               "settings": {
+                  "foreground": "#ad93e0"
+               }
+            },
+            {
+               "scope": "storage.type.function.arrow.ts, storage.type.ts, keyword.operator.increment.ts, keyword.operator.scss, punctuation.separator.key-value.scss, punctuation.separator.key-value.ts, constant.numeric.decimal.ts, keyword.operator.logical.ts, keyword.operator.arithmetic.ts, keyword.operator.assignment.ts, keyword.operator.comparison.ts, punctuation.separator.key-value.js, entity.name.tag.block.any.html, keyword.operator.arithmetic.js, keyword.operator.spread.js, keyword.operator.decrement.js, keyword.operator.increment.js, support.function.misc.scss, entity.name.function.scss, keyword.operator.relational.js, keyword.operator.logical.js, keyword.operator.assignment.js, keyword.operator.comparison.js, keyword.operator.ternary.js, constant.numeric.decimal.js, storage.type.function.js, storage.type.js, constant.numeric.css, entity.name.tag.html, entity.name.tag.css, entity.name.tag.reference.scss",
+               "settings": {
+                  "foreground": "#648ab6"
+               }
+            },
+            {
+               "scope": "meta.object-literal.key.ts, variable.other.constant.ts, variable.scss, variable.other.readwrite.alias.js, meta.object-literal.key.js, variable.other.object.property.js, variable.other.property.js, meta.export.default.js variable.other.readwrite.js, punctuation.definition.constant.css, constant.other.color.rgb-value.hex.css, variable.other.constant.js, meta.property-name.media-query.scss, support.type.property-name.media.css, meta.property-value.media-query.scss, keyword.other.unit.fr.css, keyword.other.unit.s.css, keyword.operator.css, constant.other.color.rgb-value.hex.css, text.html.derivative, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html ,support.type.property-name.css, keyword.other.unit.px.css, keyword.other.unit.percentage.css, keyword.other.unit.vh.css, keyword.other.unit.vw.css, keyword.other.unit.deg.css",
+               "settings": {
+                  "foreground": "#ABB2BF"
+               }
+            },
+            {
+               "scope": "entity.name.tag.template.html, entity.name.tag.script.html, entity.name.tag.style.html, variable.parameter.url.scss, support.constant.property-value.css",
+               "settings": {
+                  "foreground": "#E06C75"
+               }
+            },
+            {
+               "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag.html",
+               "settings": {
+                  "foreground": "#648ab6", //70a7a2
+                  "fontStyle": "bold"
+               }
+            },
+            {
+               "scope": "string.quoted.single.js, punctuation.definition.string.begin.js, punctuation.definition.string.end.js, string.quoted.double.js,  punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, string.quoted.double.scss, string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
+               "settings": {
+                  "foreground": "#98C379"
+               }
+            },
+            {
+               "scope": "support.constant.property-value.css, variable.other.object.property.ts, variable.other.property.ts, variable.other.property.js, variable.other.object.property.js",
+               "settings": {
+                  "foreground": "#C36D75"
+               }
+            },
+            {
+               "scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
+               "settings": {
+                  "foreground": "#9ECBFF"
+               }
+            }
+         ]
+      }
+   },
+   "editor.fontFamily": "Fira Code",
+   "editor.fontLigatures": true,
+   "editor.lineHeight": 1.7,
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "prettier.printWidth": 120,
+   "prettier.tabWidth": 3,
+   "prettier.singleAttributePerLine": true,
+   "editor.renderWhitespace": "none",
+   "prettier.bracketSameLine": true,
+   "prettier.configPath": ".prettierrc",
+   "editor.tabSize": 3,
+   "security.workspace.trust.untrustedFiles": "open",
+   "editor.minimap.enabled": false,
+   "colorize.decoration_type": "underline",
+   "window.menuBarVisibility": "toggle",
+   "ecsstractor_port.bem_nesting": true,
+   "ecsstractor_port.brackets_newline_after": false,
+   "ecsstractor_port.empty_line_before_nested_selector": false,
+   "ecsstractor_port.add_comment": false,
+   "editor.unicodeHighlight.ambiguousCharacters": false,
+   "editor.guides.bracketPairsHorizontal": true,
+   "editor.bracketPairColorization.enabled": false,
+   "scss.lint.emptyRules": "ignore",
+   "colorize.colorized_variables": ["SASS"],
+   "editor.guides.highlightActiveBracketPair": false,
+   "highlight-matching-tag.styles": {
+      "opening": {
+         "name": {
+            "surround": "#ffffff46"
+         }
+      }
+   },
+   "highlight-matching-tag.showPath": false,
+   "highlight-matching-tag.showRuler": false,
+   "html.hover.documentation": false,
+   "html.hover.references": false,
+   "css.hover.documentation": false,
+   "css.hover.references": false,
+   "less.hover.references": false,
+   "scss.hover.references": false,
+   "npm.scriptHover": false,
+   "scss.hover.documentation": false,
+   "breadcrumbs.enabled": false,
+   "stylelint.validate": ["css", "scss"],
+   "workbench.iconTheme": "vscode-great-icons",
+   "explorer.confirmDelete": false,
+   "explorer.confirmDragAndDrop": false,
+   "vue.inlayHints.optionsWrapper": false,
+   "css.lint.unknownAtRules": "ignore",
+   "search.quickOpen.includeHistory": false,
+   "workbench.localHistory.enabled": false,
+   "volar.inlayHints.eventArgumentInInlineHandlers": false,
+   "workbench.activityBar.visible": false,
+   "editor.codeLens": false,
+   "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+   },
+   "editor.fontSize": 16,
+   "javascript.updateImportsOnFileMove.enabled": "always",
+   "workbench.colorTheme": "Atom One Dark",
+   "files.autoSave": "afterDelay",
+   "scss.lint.unknownAtRules": "ignore"
+}
